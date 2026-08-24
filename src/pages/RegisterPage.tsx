@@ -29,7 +29,7 @@ export function RegisterPage() {
     <div className="auth-screen">
       <form className="auth-card" onSubmit={onSubmit}>
         <div className="logo-wrap">
-          <Logo size={56} />
+          <Logo size={96} />
           <h1>Crear cuenta de paciente</h1>
           <p className="tagline">Elige a tu psicóloga asignada para vincular tu diario.</p>
         </div>

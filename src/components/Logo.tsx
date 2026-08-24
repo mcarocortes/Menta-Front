@@ -1,22 +1,13 @@
+import logoBg from '../assets/logo_bg.png'
+
 export function Logo({ size = 48 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 64 64" fill="none" aria-hidden="true">
-      <rect width="64" height="64" rx="16" fill="#F8F9F9" />
-      <path
-        fill="#EDBB99"
-        d="M30.5 10.5c-9.2 1.8-16 10.2-16 20.5 0 10.4 6.9 18.8 16.2 20.6 3.6.7 5.8-2.1 5.8-5.7V16.2c0-3.6-2.3-6.4-6-5.7Z"
-      />
-      <circle cx="24.5" cy="28" r="2.1" fill="#5D6D7E" />
-      <path
-        fill="#A3E4D7"
-        d="M37 14c14.5 5.2 20.4 20.1 15.8 33.2-1.5.3-3.1.2-4.5-.4C36.8 42.6 30.6 30.8 33 18.2c.6-3.2 2-4.6 4-4.2Z"
-      />
-      <path
-        stroke="#5D6D7E"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        d="M42.5 26.5c2.4 3.2 3.6 7.4 3.2 11.6"
-      />
-    </svg>
+    <img
+      src={logoBg}
+      alt="Menta"
+      width={size}
+      height={size}
+      style={{ width: size, height: size, objectFit: 'contain', display: 'block' }}
+    />
   )
 }

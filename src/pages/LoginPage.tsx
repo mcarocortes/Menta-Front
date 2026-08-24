@@ -26,8 +26,7 @@ export function LoginPage() {
     <div className="auth-screen">
       <form className="auth-card" onSubmit={onSubmit}>
         <div className="logo-wrap">
-          <Logo size={64} />
-          <h1 className="brand-word">MENTA</h1>
+          <Logo size={128} />
           <p className="tagline">Claridad clínica, bienestar consciente.</p>
         </div>
 

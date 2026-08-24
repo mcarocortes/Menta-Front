@@ -11,7 +11,7 @@ export default defineConfig(({ command }) => ({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'pwa-192.png', 'pwa-512.png'],
+      includeAssets: ['favicon.png', 'pwa-192.png', 'pwa-512.png'],
       manifest: {
         name: 'Menta',
         short_name: 'Menta',
