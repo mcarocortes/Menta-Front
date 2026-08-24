@@ -2,22 +2,17 @@ import { createContext, useContext, useMemo, useState, type ReactNode } from 're
 import { SEED_USERS } from '../data/mock'
 import type { Role, User } from '../types'
 
-const SESSION_KEY = 'menta-session'
 const USERS_KEY = 'menta-users'
+const LEGACY_SESSION_KEY = 'menta-session'
 
 function readUsers(): User[] {
+  localStorage.removeItem(LEGACY_SESSION_KEY)
   const raw = localStorage.getItem(USERS_KEY)
   if (!raw) {
     localStorage.setItem(USERS_KEY, JSON.stringify(SEED_USERS))
     return SEED_USERS
   }
   return JSON.parse(raw) as User[]
-}
-
-function readSession(): User | null {
-  const id = localStorage.getItem(SESSION_KEY)
-  if (!id) return null
-  return readUsers().find((user) => user.id === id) ?? null
 }
 
 interface AuthValue {
@@ -37,7 +32,7 @@ const AuthContext = createContext<AuthValue | null>(null)
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [users, setUsers] = useState<User[]>(readUsers)
-  const [user, setUser] = useState<User | null>(readSession)
+  const [user, setUser] = useState<User | null>(null)
 
   const value = useMemo<AuthValue>(
     () => ({
@@ -48,7 +43,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           (item) => item.email.toLowerCase() === email.toLowerCase() && item.password === password,
         )
         if (!found) return { error: 'Email o contraseña incorrectos.' }
-        localStorage.setItem(SESSION_KEY, found.id)
         setUser(found)
         return { user: found }
       },
@@ -67,13 +61,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         }
         const list = [...users, next]
         localStorage.setItem(USERS_KEY, JSON.stringify(list))
-        localStorage.setItem(SESSION_KEY, next.id)
         setUsers(list)
         setUser(next)
         return null
       },
       logout() {
-        localStorage.removeItem(SESSION_KEY)
         setUser(null)
       },
     }),
