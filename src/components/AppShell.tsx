@@ -1,7 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useState, type ReactNode } from 'react'
 import { useAuth } from '../auth/AuthContext'
-import { Logo } from './Logo'
 
 const psyLinks = [
   { to: '/psicologa', label: 'Inicio' },
@@ -34,11 +33,10 @@ export function AppShell({ children }: { children: ReactNode }) {
     <div className="app-shell">
       <header className="topbar">
         <div className="brand">
-          <Logo size={40} />
-          <div>
-            <div className="brand-word">MENTA</div>
-            <small>{user?.role === 'psicologa' ? 'Gestión clínica' : 'Diario emocional'}</small>
-          </div>
+          <div className='logo'></div>
+          <div className="brand-word">MENTA</div>
+          <small>{user?.role === 'psicologa' ? 'Gestión clínica' : 'Diario emocional'}</small>
+          
         </div>
         <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <span className="muted" style={{ fontSize: '0.82rem' }}>

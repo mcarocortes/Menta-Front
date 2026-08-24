@@ -19,9 +19,6 @@ export function AgendaPage() {
           return (
             <article key={item.id} className="card">
               <div className="person">
-                <div className="avatar" style={{ background: '#A3E4D7' }}>
-                  {patient?.name.slice(0, 1)}
-                </div>
                 <div>
                   <strong>{patient?.name}</strong>
                   <div className="muted">
