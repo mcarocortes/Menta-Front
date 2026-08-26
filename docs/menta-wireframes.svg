@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1572 1340" width="1572" height="1340">
+  <title>MENTA - Wireframes de interfaz</title>
+  <rect width="1572" height="1340" fill="#e8ecee"/>
+
+  <text x="48" y="42" font-family="Outfit, Inter, sans-serif" font-size="22" font-weight="700" fill="#2c3a47">MENTA</text>
+  <text x="152" y="42" font-family="Inter, sans-serif" font-size="13" fill="#5d6d7e">Wireframes - portal psicologa y paciente</text>
+
+  <text x="48" y="78" font-family="Inter, sans-serif" font-size="11" letter-spacing="1.6" fill="#5d6d7e">PSICOLOGA - GESTION CLINICA</text>
+  <text x="48" y="700" font-family="Inter, sans-serif" font-size="11" letter-spacing="1.6" fill="#5d6d7e">PACIENTE - DIARIO EMOCIONAL</text>
+
+  <defs>
+    <symbol id="phone" viewBox="0 0 260 548">
+      <rect x="1" y="1" width="258" height="546" rx="34" fill="#f8f9f9" stroke="#2c3a47" stroke-width="2"/>
+      <rect x="96" y="8" width="68" height="16" rx="8" fill="#2c3a47"/>
+    </symbol>
+    <symbol id="burger" viewBox="0 0 20 14">
+      <rect width="20" height="2" rx="1" fill="#5d6d7e"/>
+      <rect y="6" width="20" height="2" rx="1" fill="#5d6d7e"/>
+      <rect y="12" width="20" height="2" rx="1" fill="#5d6d7e"/>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="11" fill="#a3e4d7"/>
+      <circle cx="12" cy="12" r="5" fill="#edbb99"/>
+    </symbol>
+  </defs>
+
+  <g transform="translate(48,96)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Gesti&#243;n cl&#237;nica</text>
+      <text font-family="Inter, sans-serif" x="168" y="16" font-size="8" fill="#8a97a3">Elena</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Gesti&#243;n cl&#237;nica</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Pacientes, sesiones y cobros</text>
+      <rect x="0" y="84" width="232" height="88" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="102" font-size="10" font-weight="600" fill="#2c3a47">Actividad de la semana</text>
+      <rect x="18" y="138" width="12" height="22" fill="#cfd8dc"/>
+      <rect x="46" y="128" width="12" height="32" fill="#cfd8dc"/>
+      <rect x="74" y="118" width="12" height="42" fill="#a3e4d7"/>
+      <rect x="102" y="132" width="12" height="28" fill="#cfd8dc"/>
+      <rect x="130" y="114" width="12" height="46" fill="#a3e4d7"/>
+      <rect x="158" y="142" width="12" height="18" fill="#cfd8dc"/>
+      <rect x="186" y="148" width="12" height="12" fill="#cfd8dc"/>
+      <rect x="0" y="184" width="232" height="96" rx="14" fill="#fbeee4"/>
+      <text font-family="Inter, sans-serif" x="12" y="202" font-size="10" font-weight="600" fill="#2c3a47">Tareas cl&#237;nicas</text>
+      <rect x="12" y="214" width="10" height="10" rx="2" fill="#6fcfbc"/>
+      <text font-family="Inter, sans-serif" x="28" y="223" font-size="9" fill="#2c3a47">Revisar diario de Lucia</text>
+      <rect x="12" y="234" width="10" height="10" rx="2" fill="#fff" stroke="#5d6d7e"/>
+      <rect x="12" y="254" width="10" height="10" rx="2" fill="#fff" stroke="#5d6d7e"/>
+      <text font-family="Inter, sans-serif" x="28" y="243" font-size="9" fill="#2c3a47">Preparar sesion de Maria</text>
+      <text font-family="Inter, sans-serif" x="28" y="263" font-size="9" fill="#2c3a47">Marcar facturas pendientes</text>
+      <rect x="0" y="292" width="232" height="118" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="310" font-size="10" font-weight="600" fill="#2c3a47">Pacientes</text>
+      <circle cx="28" cy="338" r="12" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="24" y="341" font-size="9" fill="#2c3a47">L</text>
+      <text font-family="Inter, sans-serif" x="46" y="336" font-size="10" font-weight="600" fill="#2c3a47">Luc&#237;a Mart&#237;n</text>
+      <text font-family="Inter, sans-serif" x="46" y="348" font-size="8" fill="#8a97a3">lucia@menta.app</text>
+      <rect x="174" y="328" width="44" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="182" y="339" font-size="8" fill="#2c3a47">Activo</text>
+      <circle cx="28" cy="378" r="12" fill="#edbb99"/>
+      <text font-family="Inter, sans-serif" x="24" y="381" font-size="9" fill="#2c3a47">C</text>
+      <text font-family="Inter, sans-serif" x="46" y="376" font-size="10" font-weight="600" fill="#2c3a47">Carlos Vega</text>
+      <text font-family="Inter, sans-serif" x="46" y="388" font-size="8" fill="#8a97a3">carlos@menta.app</text>
+      <rect x="174" y="368" width="44" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="182" y="379" font-size="8" fill="#2c3a47">Activo</text>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Inicio</text>
+  </g>
+
+  <g transform="translate(340,96)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Gesti&#243;n cl&#237;nica</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Pacientes</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Abre la ficha cl&#237;nica de cada persona</text>
+      <rect x="0" y="88" width="232" height="72" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="28" cy="124" r="16" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="23" y="128" font-size="11" fill="#2c3a47">L</text>
+      <text font-family="Inter, sans-serif" x="52" y="118" font-size="11" font-weight="600" fill="#2c3a47">Luc&#237;a Mart&#237;n</text>
+      <text font-family="Inter, sans-serif" x="52" y="132" font-size="8" fill="#8a97a3">Ficha - diario - ejercicios</text>
+      <rect x="168" y="112" width="52" height="22" rx="11" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="176" y="126" font-size="8" fill="#2c3a47">Ver ficha</text>
+      <rect x="0" y="172" width="232" height="72" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="28" cy="208" r="16" fill="#edbb99"/>
+      <text font-family="Inter, sans-serif" x="23" y="212" font-size="11" fill="#2c3a47">C</text>
+      <text font-family="Inter, sans-serif" x="52" y="202" font-size="11" font-weight="600" fill="#2c3a47">Carlos Vega</text>
+      <text font-family="Inter, sans-serif" x="52" y="216" font-size="8" fill="#8a97a3">Ficha - diario - ejercicios</text>
+      <rect x="168" y="196" width="52" height="22" rx="11" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="176" y="210" font-size="8" fill="#2c3a47">Ver ficha</text>
+      <rect x="0" y="256" width="232" height="72" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="28" cy="292" r="16" fill="#d5dbe0"/>
+      <text font-family="Inter, sans-serif" x="22" y="296" font-size="11" fill="#2c3a47">M</text>
+      <text font-family="Inter, sans-serif" x="52" y="286" font-size="11" font-weight="600" fill="#2c3a47">Mar&#237;a Soto</text>
+      <text font-family="Inter, sans-serif" x="52" y="300" font-size="8" fill="#8a97a3">Ficha - diario - ejercicios</text>
+      <rect x="168" y="280" width="52" height="22" rx="11" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="176" y="294" font-size="8" fill="#2c3a47">Ver ficha</text>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Pacientes</text>
+  </g>
+
+  <g transform="translate(632,96)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Gesti&#243;n cl&#237;nica</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Ficha cl&#237;nica</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Luc&#237;a Mart&#237;n - lucia@menta.app</text>
+      <rect x="0" y="86" width="110" height="86" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="10" y="104" font-size="9" font-weight="600" fill="#2c3a47">Notas cl&#237;nicas</text>
+      <rect x="10" y="114" width="88" height="6" rx="3" fill="#e4e8eb"/>
+      <rect x="10" y="126" width="70" height="6" rx="3" fill="#e4e8eb"/>
+      <rect x="10" y="138" width="80" height="6" rx="3" fill="#e4e8eb"/>
+      <rect x="122" y="86" width="110" height="86" rx="14" fill="#e8f8f4"/>
+      <text font-family="Inter, sans-serif" x="132" y="104" font-size="9" font-weight="600" fill="#2c3a47">Diario reciente</text>
+      <text font-family="Inter, sans-serif" x="132" y="124" font-size="8" fill="#2c3a47">Animo 4/5</text>
+      <rect x="132" y="132" width="86" height="6" rx="3" fill="#cfeee7"/>
+      <rect x="132" y="144" width="64" height="6" rx="3" fill="#cfeee7"/>
+      <rect x="0" y="184" width="110" height="86" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="10" y="202" font-size="9" font-weight="600" fill="#2c3a47">Ejercicios</text>
+      <rect x="10" y="214" width="88" height="18" rx="9" fill="#f3f5f6"/>
+      <rect x="10" y="238" width="72" height="18" rx="9" fill="#f3f5f6"/>
+      <rect x="122" y="184" width="110" height="86" rx="14" fill="#fbeee4"/>
+      <text font-family="Inter, sans-serif" x="132" y="202" font-size="9" font-weight="600" fill="#2c3a47">Facturaci&#243;n</text>
+      <text font-family="Inter, sans-serif" x="132" y="222" font-size="8" fill="#2c3a47">Sesion 25 ago</text>
+      <rect x="132" y="232" width="52" height="16" rx="8" fill="#edbb99"/>
+      <text font-family="Inter, sans-serif" x="140" y="243" font-size="8" fill="#2c3a47">pendiente</text>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Ficha</text>
+  </g>
+
+  <g transform="translate(924,96)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Gesti&#243;n cl&#237;nica</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Agenda</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Online abre WhatsApp - presencial, el lugar</text>
+      <rect x="0" y="88" width="232" height="108" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="14" y="110" font-size="11" font-weight="600" fill="#2c3a47">Luc&#237;a Mart&#237;n</text>
+      <text font-family="Inter, sans-serif" x="14" y="126" font-size="8" fill="#8a97a3">2026-08-25 - 10:00 - Seguimiento</text>
+      <rect x="168" y="100" width="50" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="178" y="111" font-size="8" fill="#2c3a47">online</text>
+      <rect x="14" y="144" width="204" height="36" rx="18" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="116" y="166" text-anchor="middle" font-size="11" font-weight="600" fill="#2c3a47">Abrir WhatsApp</text>
+      <rect x="0" y="208" width="232" height="92" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="14" y="230" font-size="11" font-weight="600" fill="#2c3a47">Mar&#237;a Soto</text>
+      <text font-family="Inter, sans-serif" x="14" y="246" font-size="8" fill="#8a97a3">2026-08-26 - 17:30 - Primera visita</text>
+      <rect x="156" y="220" width="62" height="16" rx="8" fill="#edbb99"/>
+      <text font-family="Inter, sans-serif" x="164" y="231" font-size="8" fill="#2c3a47">presencial</text>
+      <text font-family="Inter, sans-serif" x="14" y="276" font-size="9" fill="#8a97a3">Consulta - C/ Mayor 12</text>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Agenda</text>
+  </g>
+
+  <g transform="translate(1216,96)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Gesti&#243;n cl&#237;nica</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Documentos</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Informes, consentimientos y tests</text>
+      <rect x="0" y="88" width="232" height="70" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="110" font-size="10" font-weight="600" fill="#2c3a47">Informe de evaluacion</text>
+      <text font-family="Inter, sans-serif" x="12" y="126" font-size="8" fill="#8a97a3">Lucia - 2026-08-12</text>
+      <rect x="168" y="108" width="50" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="176" y="119" font-size="8" fill="#2c3a47">Informe</text>
+      <rect x="0" y="168" width="232" height="70" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="190" font-size="10" font-weight="600" fill="#2c3a47">Consentimiento informado</text>
+      <text font-family="Inter, sans-serif" x="12" y="206" font-size="8" fill="#8a97a3">Carlos - 2026-07-03</text>
+      <rect x="176" y="188" width="42" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="186" y="199" font-size="8" fill="#2c3a47">Legal</text>
+      <rect x="0" y="248" width="232" height="70" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="270" font-size="10" font-weight="600" fill="#2c3a47">Test BDI-II</text>
+      <text font-family="Inter, sans-serif" x="12" y="286" font-size="8" fill="#8a97a3">Maria - 2026-08-20</text>
+      <rect x="180" y="268" width="38" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="190" y="279" font-size="8" fill="#2c3a47">Test</text>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Documentos</text>
+  </g>
+
+  <g transform="translate(48,720)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,48)">
+      <circle cx="116" cy="48" r="36" fill="#a3e4d7"/>
+      <circle cx="116" cy="48" r="16" fill="#edbb99"/>
+      <text font-family="Outfit, Inter, sans-serif" x="116" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="116" y="122" text-anchor="middle" font-size="8" fill="#8a97a3">Claridad clinica, bienestar consciente</text>
+      <text font-family="Inter, sans-serif" x="8" y="154" font-size="9" font-weight="600" fill="#5d6d7e">Email</text>
+      <rect x="0" y="160" width="232" height="34" rx="12" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="8" y="216" font-size="9" font-weight="600" fill="#5d6d7e">Contrasena</text>
+      <rect x="0" y="222" width="232" height="34" rx="12" fill="#fff" stroke="#e4e8eb"/>
+      <rect x="0" y="272" width="232" height="38" rx="19" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="116" y="296" text-anchor="middle" font-size="12" font-weight="600" fill="#2c3a47">Entrar</text>
+      <text font-family="Inter, sans-serif" x="116" y="328" text-anchor="middle" font-size="8" fill="#8a97a3">Paciente nuevo? Registrate</text>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Login</text>
+  </g>
+
+  <g transform="translate(340,720)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Diario emocional</text>
+      <text font-family="Inter, sans-serif" x="148" y="16" font-size="8" fill="#8a97a3">Lucia</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Diario emocional</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Tu psicologa lo vera en tu ficha</text>
+      <rect x="0" y="86" width="232" height="196" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="106" font-size="11" font-weight="600" fill="#2c3a47">Como estas hoy?</text>
+      <circle cx="32" cy="138" r="16" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="74" cy="138" r="16" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="116" cy="138" r="16" fill="#e8f8f4" stroke="#6fcfbc" stroke-width="2"/>
+      <circle cx="158" cy="138" r="16" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="200" cy="138" r="16" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="172" font-size="9" fill="#5d6d7e">Nota (opcional)</text>
+      <rect x="12" y="178" width="208" height="48" rx="10" fill="#f8f9f9" stroke="#e4e8eb"/>
+      <rect x="12" y="236" width="208" height="32" rx="16" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="116" y="256" text-anchor="middle" font-size="10" font-weight="600" fill="#2c3a47">Guardar entrada</text>
+      <rect x="0" y="294" width="232" height="56" rx="14" fill="#e8f8f4"/>
+      <text font-family="Inter, sans-serif" x="12" y="316" font-size="10" font-weight="600" fill="#2c3a47">Animo 4/5</text>
+      <text font-family="Inter, sans-serif" x="12" y="332" font-size="8" fill="#5d6d7e">Dia mas estable que ayer</text>
+      <rect x="0" y="430" width="232" height="52" rx="16" fill="#fff"/>
+      <text font-family="Inter, sans-serif" x="24" y="452" font-size="8" font-weight="600" fill="#2c3a47">Diario</text>
+      <text font-family="Inter, sans-serif" x="78" y="452" font-size="8" fill="#8a97a3">Ejercicios</text>
+      <text font-family="Inter, sans-serif" x="148" y="452" font-size="8" fill="#8a97a3">Agenda</text>
+      <text font-family="Inter, sans-serif" x="200" y="452" font-size="8" fill="#8a97a3">Perfil</text>
+      <rect x="16" y="462" width="36" height="3" rx="1.5" fill="#6fcfbc"/>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Diario</text>
+  </g>
+
+  <g transform="translate(632,720)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Diario emocional</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Ejercicios</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Lo que te ha asignado tu psicologa</text>
+      <rect x="0" y="86" width="232" height="168" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="106" font-size="11" font-weight="600" fill="#2c3a47">Registro de pensamiento</text>
+      <text font-family="Inter, sans-serif" x="12" y="122" font-size="8" fill="#8a97a3">Que paso y que pensaste?</text>
+      <rect x="12" y="132" width="208" height="64" rx="10" fill="#f8f9f9" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="20" y="150" font-size="8" fill="#c5cdd3">Tu respuesta</text>
+      <rect x="12" y="206" width="208" height="32" rx="16" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="116" y="226" text-anchor="middle" font-size="11" font-weight="600" fill="#2c3a47">Enviar</text>
+      <rect x="0" y="266" width="232" height="72" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="12" y="286" font-size="11" font-weight="600" fill="#2c3a47">Nivel de ansiedad</text>
+      <text font-family="Inter, sans-serif" x="12" y="302" font-size="8" fill="#8a97a3">Como ha sido tu ansiedad hoy?</text>
+      <rect x="12" y="312" width="92" height="16" rx="8" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="20" y="323" font-size="8" fill="#2c3a47">Enviado: Media</text>
+      <rect x="0" y="430" width="232" height="52" rx="16" fill="#fff"/>
+      <text font-family="Inter, sans-serif" x="24" y="452" font-size="8" fill="#8a97a3">Diario</text>
+      <text font-family="Inter, sans-serif" x="78" y="452" font-size="8" font-weight="600" fill="#2c3a47">Ejercicios</text>
+      <text font-family="Inter, sans-serif" x="148" y="452" font-size="8" fill="#8a97a3">Agenda</text>
+      <text font-family="Inter, sans-serif" x="200" y="452" font-size="8" fill="#8a97a3">Perfil</text>
+      <rect x="78" y="462" width="48" height="3" rx="1.5" fill="#6fcfbc"/>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Ejercicios</text>
+  </g>
+
+  <g transform="translate(924,720)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Diario emocional</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Agenda</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Proximas sesiones con Dra. Elena Ruiz</text>
+      <rect x="0" y="96" width="232" height="128" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="14" y="122" font-size="13" font-weight="600" fill="#2c3a47">2026-08-25 - 10:00</text>
+      <text font-family="Inter, sans-serif" x="14" y="142" font-size="9" fill="#8a97a3">Seguimiento semanal</text>
+      <rect x="14" y="162" width="204" height="40" rx="20" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="116" y="186" text-anchor="middle" font-size="10" font-weight="600" fill="#2c3a47">Videollamada por WhatsApp</text>
+      <rect x="0" y="430" width="232" height="52" rx="16" fill="#fff"/>
+      <text font-family="Inter, sans-serif" x="24" y="452" font-size="8" fill="#8a97a3">Diario</text>
+      <text font-family="Inter, sans-serif" x="78" y="452" font-size="8" fill="#8a97a3">Ejercicios</text>
+      <text font-family="Inter, sans-serif" x="148" y="452" font-size="8" font-weight="600" fill="#2c3a47">Agenda</text>
+      <text font-family="Inter, sans-serif" x="200" y="452" font-size="8" fill="#8a97a3">Perfil</text>
+      <rect x="142" y="462" width="40" height="3" rx="1.5" fill="#6fcfbc"/>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Agenda</text>
+  </g>
+
+  <g transform="translate(1216,720)">
+    <use xlink:href="#phone" width="260" height="548"/>
+    <g transform="translate(14,32)">
+      <use xlink:href="#logo" width="22" height="22"/>
+      <text font-family="Outfit, Inter, sans-serif" x="28" y="11" font-size="12" font-weight="700" fill="#5d6d7e">MENTA</text>
+      <text font-family="Inter, sans-serif" x="28" y="23" font-size="8" fill="#8a97a3">Diario emocional</text>
+      <use xlink:href="#burger" x="210" y="8" width="16" height="12"/>
+      <line x1="0" y1="32" x2="232" y2="32" stroke="#e4e8eb"/>
+      <text font-family="Outfit, Inter, sans-serif" x="0" y="56" font-size="18" font-weight="700" fill="#5d6d7e">Mi perfil</text>
+      <text font-family="Inter, sans-serif" x="0" y="72" font-size="9" fill="#8a97a3">Datos de tu ficha</text>
+      <rect x="0" y="96" width="232" height="120" rx="14" fill="#fff" stroke="#e4e8eb"/>
+      <circle cx="28" cy="128" r="16" fill="#a3e4d7"/>
+      <text font-family="Inter, sans-serif" x="23" y="132" font-size="11" fill="#2c3a47">L</text>
+      <text font-family="Inter, sans-serif" x="52" y="126" font-size="12" font-weight="600" fill="#2c3a47">Luc&#237;a Mart&#237;n</text>
+      <text font-family="Inter, sans-serif" x="52" y="142" font-size="9" fill="#8a97a3">lucia@menta.app</text>
+      <line x1="16" y1="164" x2="216" y2="164" stroke="#e4e8eb"/>
+      <text font-family="Inter, sans-serif" x="16" y="186" font-size="9" fill="#8a97a3">Psicologa asignada</text>
+      <text font-family="Inter, sans-serif" x="16" y="202" font-size="11" font-weight="600" fill="#2c3a47">Dra. Elena Ruiz</text>
+      <rect x="0" y="430" width="232" height="52" rx="16" fill="#fff"/>
+      <text font-family="Inter, sans-serif" x="24" y="452" font-size="8" fill="#8a97a3">Diario</text>
+      <text font-family="Inter, sans-serif" x="78" y="452" font-size="8" fill="#8a97a3">Ejercicios</text>
+      <text font-family="Inter, sans-serif" x="148" y="452" font-size="8" fill="#8a97a3">Agenda</text>
+      <text font-family="Inter, sans-serif" x="200" y="452" font-size="8" font-weight="600" fill="#2c3a47">Perfil</text>
+      <rect x="196" y="462" width="28" height="3" rx="1.5" fill="#6fcfbc"/>
+    </g>
+    <text font-family="Inter, sans-serif" x="130" y="572" text-anchor="middle" font-size="11" fill="#5d6d7e">Perfil</text>
+  </g>
+</svg>
